@@ -73,7 +73,7 @@ Element color: Search and replace colors. Do not use spaces!
 			<primaryColor>969696</primaryColor>
 			<secondaryColor>7a6161</secondaryColor>
 			<fontPath>./art/Cabin-Bold.ttf</fontPath>
-			<fontSize>0.030</fontSize>
+			<fontSize>0.040</fontSize>
 			<pos>0.025 0.18</pos>
 			<size>0.950 0.73</size>
 			<alignment>center</alignment>
@@ -167,7 +167,7 @@ Element color: Search and replace colors. Do not use spaces!
 			<size>0.489 0.754</size>
 			<alignment>left</alignment>
 			<horizontalMargin>0.00</horizontalMargin>
-			<fontSize>0.03</fontSize>
+			<fontSize>0.04</fontSize>
 			<scrollSound>./art/scroll.wav</scrollSound>
 		</textlist>
 
