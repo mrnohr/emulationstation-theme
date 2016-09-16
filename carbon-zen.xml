@@ -8,7 +8,6 @@ license: Apache
 	<formatVersion>3</formatVersion>
 
 	<view name="system">
-
 		<image name="background" extra="true">
 			<path>./art/backgrounds/blue-mountains.jpg</path>
 		</image>
@@ -17,6 +16,12 @@ license: Apache
 			<color>e6f2ff</color>
 		</image>
 
+		<helpsystem name="help">
+			<textColor>cce6ff</textColor>
+			<iconColor>99ccff</iconColor>
+			<fontPath>./art/fonts/Elevation.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+		</helpsystem>
 	</view>
 
 	<view name="basic">
@@ -27,9 +32,9 @@ license: Apache
 
 		<textlist name="gamelist">
 			<selectedColor>80b3ff</selectedColor>
-			<primaryColor>969696</primaryColor>
+			<primaryColor>c6d9ec</primaryColor>
 			<secondaryColor>7a6161</secondaryColor>
-			<fontPath>./art/fonts/Cabin-Bold.ttf</fontPath>
+			<fontPath>./art/fonts/Elevation.ttf</fontPath>
 			<fontSize>0.040</fontSize>
 			<pos>0.025 0.18</pos>
 			<size>0.950 0.73</size>
@@ -54,9 +59,9 @@ license: Apache
 		</image>
 
 		<text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_players, md_players, md_lbl_releasedate">
-			<color>969696</color>
+			<color>c6d9ec</color>
 			<forceUppercase>0</forceUppercase>
-			<fontPath>./art/fonts/Cabin-Bold.ttf</fontPath>
+			<fontPath>./art/fonts/Elevation.ttf</fontPath>
 			<fontSize>0.023</fontSize>
 		</text>
 
@@ -65,9 +70,9 @@ license: Apache
 		</text>
 
 		<datetime name="md_lastplayed, md_releasedate">
-			<color>969696</color>
+			<color>c6d9ec</color>
 			<forceUppercase>0</forceUppercase>
-			<fontPath>./art/fonts/Cabin-Bold.ttf</fontPath>
+			<fontPath>./art/fonts/Elevation.ttf</fontPath>
 			<fontSize>0.023</fontSize>
 		</datetime>
 
@@ -87,9 +92,9 @@ license: Apache
 		</text>
 
 		<text name="md_description">
-			<color>969696</color>
+			<color>c6d9ec</color>
 			<forceUppercase>0</forceUppercase>
-			<fontPath>./art/fonts/Cabin-Bold.ttf</fontPath>
+			<fontPath>./art/fonts/Elevation.ttf</fontPath>
 			<fontSize>0.023</fontSize>
 			<size>0.467 0.26</size>
 			<pos>0.530 0.666</pos>
@@ -97,9 +102,9 @@ license: Apache
 
 		<textlist name="gamelist">
 			<selectedColor>80b3ff</selectedColor>
-			<primaryColor>969696</primaryColor>
+			<primaryColor>c6d9ec</primaryColor>
 			<secondaryColor>7a6161</secondaryColor>
-			<fontPath>./art/fonts/Cabin-Bold.ttf</fontPath>
+			<fontPath>./art/fonts/Elevation.ttf</fontPath>
 			<pos>0.021 0.168</pos>
 			<size>0.489 0.754</size>
 			<alignment>left</alignment>
@@ -113,21 +118,21 @@ license: Apache
 			<path>./art/hidden.svg</path>
 			<maxSize>0.032 0.032</maxSize>
 			<origin>0.5 0.5</origin>
-			<color>969696</color>
+			<color>c6d9ec</color>
 		</image>
 		<image name="md_kidgame">
 			<pos>0.883 0.700</pos>
 			<path>./art/kid.svg</path>
 			<maxSize>0.032 0.032</maxSize>
 			<origin>0.5 0.5</origin>
-			<color>969696</color>
+			<color>c6d9ec</color>
 		</image>
 		<image name="md_favorite">
 			<pos>0.940 0.700</pos>
 			<path>./art/favorite.svg</path>
 			<maxSize>0.032 0.032</maxSize>
 			<origin>0.5 0.5</origin>
-			<color>969696</color>
+			<color>c6d9ec</color>
 		</image>
 
 		</view>
@@ -150,6 +155,12 @@ license: Apache
 			<color>1aa3ff33</color>
 		</image>
 
+		<helpsystem name="help">
+			<textColor>cce6ff</textColor>
+			<iconColor>99ccff</iconColor>
+			<fontPath>./art/fonts/Elevation.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+		</helpsystem>
 	</view>
 
 
