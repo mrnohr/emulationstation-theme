@@ -22,7 +22,7 @@ license: Apache
 		<helpsystem name="help">
 			<textColor>cce6ff</textColor>
 			<iconColor>99ccff</iconColor>
-			<fontPath>./art/fonts/Elevation.ttf</fontPath>
+			<fontPath>./art/fonts/Optima.ttc</fontPath>
 			<fontSize>0.025</fontSize>
 		</helpsystem>
 	</view>
@@ -37,7 +37,7 @@ license: Apache
 			<selectedColor>80b3ff</selectedColor>
 			<primaryColor>c6d9ec</primaryColor>
 			<secondaryColor>7a6161</secondaryColor>
-			<fontPath>./art/fonts/Elevation.ttf</fontPath>
+			<fontPath>./art/fonts/Optima.ttc</fontPath>
 			<fontSize>0.040</fontSize>
 			<pos>0.025 0.18</pos>
 			<size>0.950 0.73</size>
@@ -67,8 +67,8 @@ license: Apache
 		<text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_players, md_players, md_lbl_releasedate">
 			<color>c6d9ec</color>
 			<forceUppercase>0</forceUppercase>
-			<fontPath>./art/fonts/Elevation.ttf</fontPath>
-			<fontSize>0.023</fontSize>
+			<fontPath>./art/fonts/Optima.ttc</fontPath>
+			<fontSize>0.028</fontSize>
 		</text>
 
 		<text name="md_lbl_rating, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate, md_lbl_genre, md_lbl_developer">
@@ -78,8 +78,8 @@ license: Apache
 		<datetime name="md_lastplayed, md_releasedate">
 			<color>c6d9ec</color>
 			<forceUppercase>0</forceUppercase>
-			<fontPath>./art/fonts/Elevation.ttf</fontPath>
-			<fontSize>0.023</fontSize>
+			<fontPath>./art/fonts/Optima.ttc</fontPath>
+			<fontSize>0.028</fontSize>
 		</datetime>
 
 		<text name="md_genre">
@@ -100,22 +100,22 @@ license: Apache
 		<text name="md_description">
 			<color>c6d9ec</color>
 			<forceUppercase>0</forceUppercase>
-			<fontPath>./art/fonts/Elevation.ttf</fontPath>
+			<fontPath>./art/fonts/Optima.ttc</fontPath>
 			<fontSize>0.023</fontSize>
-			<size>0.467 0.26</size>
-			<pos>0.530 0.666</pos>
+			<size>0.467 0.24</size>
+			<pos>0.530 0.68</pos>
 		</text>
 
 		<textlist name="gamelist">
 			<selectedColor>80b3ff</selectedColor>
 			<primaryColor>c6d9ec</primaryColor>
 			<secondaryColor>7a6161</secondaryColor>
-			<fontPath>./art/fonts/Elevation.ttf</fontPath>
+			<fontPath>./art/fonts/Optima.ttc</fontPath>
 			<pos>0.021 0.168</pos>
 			<size>0.489 0.754</size>
 			<alignment>left</alignment>
 			<horizontalMargin>0.00</horizontalMargin>
-			<fontSize>0.03</fontSize>
+			<fontSize>0.037</fontSize>
 			<scrollSound>./art/sounds/click.wav</scrollSound>
 		</textlist>
 
@@ -164,7 +164,7 @@ license: Apache
 		<helpsystem name="help">
 			<textColor>cce6ff</textColor>
 			<iconColor>99ccff</iconColor>
-			<fontPath>./art/fonts/Elevation.ttf</fontPath>
+			<fontPath>./art/fonts/Optima.ttc</fontPath>
 			<fontSize>0.025</fontSize>
 		</helpsystem>
 	</view>
