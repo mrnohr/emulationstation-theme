@@ -1,19 +1,9 @@
 <!--
-Theme: Carbon
-version: 2.0
-author: Eric Hettervik (Rookervik)
+Theme: Carbon Zen
+version: 1.0
+author: Matt Nohr
 license: creative commons CC-BY-NC-SA
-originally based on: "simple" by nils bonenberger
-
-Element color: Search and replace colors. Do not use spaces!
-	Red 	8b 00 00
-	Blue 	30 82 ce
-	Green 	50 d6 2c
-	Yellow	ef bc 0b
-	Orange	ef 71 0b
-	Purple	ac 0b ef
-	Teal	04 e9 f7
-	Pink	f5 02 97
+originally based on: "carbon"
 -->
 <theme>
 	<formatVersion>3</formatVersion>
