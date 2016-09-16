@@ -100,7 +100,6 @@ license: Apache
 			<primaryColor>969696</primaryColor>
 			<secondaryColor>7a6161</secondaryColor>
 			<fontPath>./art/fonts/Cabin-Bold.ttf</fontPath>
-			<forceUppercase>0</forceUppercase>
 			<pos>0.021 0.168</pos>
 			<size>0.489 0.754</size>
 			<alignment>left</alignment>
