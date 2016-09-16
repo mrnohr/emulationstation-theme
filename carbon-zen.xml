@@ -22,11 +22,7 @@ license: Apache
 	<view name="basic">
 
 		<image name="background" extra="true">
-			<tile>true</tile>
-			<pos>0 0</pos>
-			<origin>0 0</origin>
-			<size>1 1</size>
-			<path>./art/carbon_fiber.png</path>
+			<path>./art/backgrounds/dark-blue.jpg</path>
 		</image>
 
 		<textlist name="gamelist">
@@ -49,11 +45,7 @@ license: Apache
 	<view name="detailed">
 
 		<image name="background" extra="true">
-			<tile>true</tile>
-			<pos>0 0</pos>
-			<origin>0 0</origin>
-			<size>1 1</size>
-			<path>./art/carbon_fiber.png</path>
+			<path>./art/backgrounds/dark-blue.jpg</path>
 		</image>
 
 		<image name="md_image">
@@ -164,7 +156,7 @@ license: Apache
 			<origin>0 1</origin>
 			<size>1 0.065</size>
 			<path>./art/bottom.png</path>
-			<color>8b0000</color>
+			<color>1aa3ff33</color>
 		</image>
 
 		<image name="top" extra="true">
@@ -172,7 +164,7 @@ license: Apache
 			<origin>0 0</origin>
 			<size>1 0.16</size>
 			<path>./art/top.png</path>
-			<color>8b0000</color>
+			<color>1aa3ff33</color>
 		</image>
 
 	</view>
