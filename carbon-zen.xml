@@ -10,6 +10,9 @@ license: Apache
 	<view name="system">
 		<image name="background" extra="true">
 			<path>./art/backgrounds/blue-mountains.jpg</path>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
 		</image>
 
 		<image name="ControllerOverlay" extra="true">
@@ -50,6 +53,9 @@ license: Apache
 
 		<image name="background" extra="true">
 			<path>./art/backgrounds/dark-blue.jpg</path>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
 		</image>
 
 		<image name="md_image">
