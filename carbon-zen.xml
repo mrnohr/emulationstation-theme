@@ -26,8 +26,7 @@ license: Apache
 		</image>
 
 		<textlist name="gamelist">
-			<selectorColor>1c1c1c</selectorColor>
-			<selectedColor>8b0000</selectedColor>
+			<selectedColor>80b3ff</selectedColor>
 			<primaryColor>969696</primaryColor>
 			<secondaryColor>7a6161</secondaryColor>
 			<fontPath>./art/fonts/Cabin-Bold.ttf</fontPath>
@@ -97,12 +96,11 @@ license: Apache
 		</text>
 
 		<textlist name="gamelist">
-			<selectorColor>1c1c1c</selectorColor>
-			<selectedColor>8b0000</selectedColor>
+			<selectedColor>80b3ff</selectedColor>
 			<primaryColor>969696</primaryColor>
 			<secondaryColor>7a6161</secondaryColor>
 			<fontPath>./art/fonts/Cabin-Bold.ttf</fontPath>
-			<forceUppercase>1</forceUppercase>
+			<forceUppercase>0</forceUppercase>
 			<pos>0.021 0.168</pos>
 			<size>0.489 0.754</size>
 			<alignment>left</alignment>
