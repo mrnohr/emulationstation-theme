@@ -45,7 +45,7 @@ Element color: Search and replace colors. Do not use spaces!
 			<selectedColor>8b0000</selectedColor>
 			<primaryColor>969696</primaryColor>
 			<secondaryColor>7a6161</secondaryColor>
-			<fontPath>./art/Cabin-Bold.ttf</fontPath>
+			<fontPath>./art/fonts/Cabin-Bold.ttf</fontPath>
 			<fontSize>0.040</fontSize>
 			<pos>0.025 0.18</pos>
 			<size>0.950 0.73</size>
@@ -76,7 +76,7 @@ Element color: Search and replace colors. Do not use spaces!
 		<text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_players, md_players, md_lbl_releasedate">
 			<color>969696</color>
 			<forceUppercase>0</forceUppercase>
-			<fontPath>./art/Cabin-Bold.ttf</fontPath>
+			<fontPath>./art/fonts/Cabin-Bold.ttf</fontPath>
 			<fontSize>0.023</fontSize>
 		</text>
 
@@ -87,7 +87,7 @@ Element color: Search and replace colors. Do not use spaces!
 		<datetime name="md_lastplayed, md_releasedate">
 			<color>969696</color>
 			<forceUppercase>0</forceUppercase>
-			<fontPath>./art/Cabin-Bold.ttf</fontPath>
+			<fontPath>./art/fonts/Cabin-Bold.ttf</fontPath>
 			<fontSize>0.023</fontSize>
 		</datetime>
 
@@ -123,7 +123,7 @@ Element color: Search and replace colors. Do not use spaces!
 		<text name="md_description">
 			<color>969696</color>
 			<forceUppercase>0</forceUppercase>
-			<fontPath>./art/Cabin-Bold.ttf</fontPath>
+			<fontPath>./art/fonts/Cabin-Bold.ttf</fontPath>
 			<fontSize>0.023</fontSize>
 			<size>0.467 0.16</size>
 			<pos>0.530 0.746</pos>
@@ -134,7 +134,7 @@ Element color: Search and replace colors. Do not use spaces!
 			<selectedColor>8b0000</selectedColor>
 			<primaryColor>969696</primaryColor>
 			<secondaryColor>7a6161</secondaryColor>
-			<fontPath>./art/Cabin-Bold.ttf</fontPath>
+			<fontPath>./art/fonts/Cabin-Bold.ttf</fontPath>
 			<forceUppercase>1</forceUppercase>
 			<pos>0.021 0.168</pos>
 			<size>0.489 0.754</size>
