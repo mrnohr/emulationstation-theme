@@ -52,7 +52,7 @@ Element color: Search and replace colors. Do not use spaces!
 			<alignment>center</alignment>
 			<horizontalMargin>0.01</horizontalMargin>
 			<forceUppercase>1</forceUppercase>
-			<scrollSound>./art/scroll.wav</scrollSound>
+			<scrollSound>./art/sounds/click.wav</scrollSound>
 		</textlist>
 
 	</view>
@@ -141,7 +141,7 @@ Element color: Search and replace colors. Do not use spaces!
 			<alignment>left</alignment>
 			<horizontalMargin>0.00</horizontalMargin>
 			<fontSize>0.04</fontSize>
-			<scrollSound>./art/scroll.wav</scrollSound>
+			<scrollSound>./art/sounds/click.wav</scrollSound>
 		</textlist>
 
 		<image name="md_hidden">
