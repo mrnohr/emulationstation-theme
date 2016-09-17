@@ -1,5 +1,5 @@
 <theme>
-    <formatVersion>3</formatVersion>
+    <formatVersion>4</formatVersion>
     <include>./../carbon-zen.xml</include>
 
 	<view name="system">

@@ -5,7 +5,7 @@ author: Matt Nohr
 license: Apache
 -->
 <theme>
-	<formatVersion>3</formatVersion>
+	<formatVersion>4</formatVersion>
 
 	<view name="system">
 		<image name="background" extra="true">
