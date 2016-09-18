@@ -6,7 +6,7 @@ license: Apache
 -->
 <theme>
 	<formatVersion>4</formatVersion>
-	
+
 	<view name="detailed">
 
 		<image name="background" extra="true">
@@ -73,7 +73,7 @@ license: Apache
 			<size>0.489 0.754</size>
 			<alignment>left</alignment>
 			<horizontalMargin>0.00</horizontalMargin>
-			<fontSize>0.037</fontSize>
+			<fontSize>0.025</fontSize>
 			<scrollSound>./art/sounds/click.wav</scrollSound>
 		</textlist>
 
