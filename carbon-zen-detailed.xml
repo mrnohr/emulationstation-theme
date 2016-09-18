@@ -1,0 +1,104 @@
+<!--
+Theme: Carbon Zen
+version: 1.0
+author: Matt Nohr
+license: Apache
+-->
+<theme>
+	<formatVersion>4</formatVersion>
+	
+	<view name="detailed">
+
+		<image name="background" extra="true">
+			<path>./art/backgrounds/dark-blue.jpg</path>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+		</image>
+
+		<image name="md_image">
+			<pos>0.763 0.400</pos>
+			<maxSize>0.453 0.436</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+
+		<text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_players, md_players, md_lbl_releasedate">
+			<color>c6d9ec</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./art/fonts/Optima.ttc</fontPath>
+			<fontSize>0.028</fontSize>
+		</text>
+
+		<text name="md_lbl_rating, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate, md_lbl_genre, md_lbl_developer">
+			<pos>1 1</pos>
+		</text>
+
+		<datetime name="md_lastplayed, md_releasedate">
+			<color>c6d9ec</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./art/fonts/Optima.ttc</fontPath>
+			<fontSize>0.028</fontSize>
+		</datetime>
+
+		<text name="md_genre">
+			<pos>0.53 0.63</pos>
+			<size>0 0.033</size>
+		</text>
+
+		<text name="md_lbl_players, md_players">
+			<pos>0.91 0.63</pos>
+			<size>0.09 0</size>
+		</text>
+
+		<text name="md_players">
+			<pos>0.98 0.63</pos>
+			<size>0.02 0</size>
+		</text>
+
+		<text name="md_description">
+			<color>c6d9ec</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./art/fonts/Optima.ttc</fontPath>
+			<fontSize>0.023</fontSize>
+			<size>0.467 0.24</size>
+			<pos>0.530 0.68</pos>
+		</text>
+
+		<textlist name="gamelist">
+			<selectedColor>80b3ff</selectedColor>
+			<primaryColor>c6d9ec</primaryColor>
+			<secondaryColor>7a6161</secondaryColor>
+			<fontPath>./art/fonts/Optima.ttc</fontPath>
+			<pos>0.021 0.168</pos>
+			<size>0.489 0.754</size>
+			<alignment>left</alignment>
+			<horizontalMargin>0.00</horizontalMargin>
+			<fontSize>0.037</fontSize>
+			<scrollSound>./art/sounds/click.wav</scrollSound>
+		</textlist>
+
+		<image name="md_hidden">
+			<pos>0.81 0.65</pos>
+			<path>./art/icons/hidden.svg</path>
+			<maxSize>0.032 0.032</maxSize>
+			<origin>0.5 0.5</origin>
+			<color>c6d9ec</color>
+		</image>
+		<image name="md_kidgame">
+			<pos>0.78 0.65</pos>
+			<path>./art/icons/kid.svg</path>
+			<maxSize>0.032 0.032</maxSize>
+			<origin>0.5 0.5</origin>
+			<color>c6d9ec</color>
+		</image>
+		<image name="md_favorite">
+			<pos>0.75 0.65</pos>
+			<path>./art/icons/favorite.svg</path>
+			<maxSize>0.032 0.032</maxSize>
+			<origin>0.5 0.5</origin>
+			<color>c6d9ec</color>
+		</image>
+
+	</view>
+
+</theme>
