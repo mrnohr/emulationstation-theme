@@ -22,6 +22,10 @@ license: Apache
 			<origin>0.5 0.5</origin>
 		</image>
 
+		<image name="logo2" extra="true">
+			<pos>1 1</pos>
+		</image>
+
 		<textlist name="gamelist">
 			<selectedColor>80b3ff</selectedColor>
 			<primaryColor>c6d9ec</primaryColor>
@@ -35,14 +39,26 @@ license: Apache
 			<scrollSound>./art/sounds/click.wav</scrollSound>
 		</textlist>
 
-
-
+		<image name="image_helper_2" extra="true">
+		    <path>./art/layout/bg_color.png</path>
+		    <origin>0.5 0.5</origin>
+		    <pos>0.7 0.43</pos>
+		    <size>0.53 0.4</size>
+		    <color>0000EE44</color>
+		</image>
 
 		<image name="md_image">
-			<pos>0.763 0.400</pos>
-			<maxSize>0.453 0.436</maxSize>
+			<pos>0.7 0.43</pos>
+			<maxSize>0.53 0.4</maxSize>
 			<origin>0.5 0.5</origin>
 		</image>
+
+
+
+
+
+
+
 
 		<text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_players, md_players, md_lbl_releasedate">
 			<color>c6d9ec</color>
@@ -112,12 +128,8 @@ license: Apache
 
 
 
-		<image name="logo2" extra="true">
-			<pos>0.874 0.074</pos>
-			<maxSize>0.460 0.126</maxSize>
-			<origin>0.5 0.5</origin>
-			<color>bbbbbb66</color>
-		</image>
+
+
 
 		<image name="bottom" extra="true">
 			<pos>0 1</pos>
