@@ -26,6 +26,7 @@ license: Apache
 			<pos>1 1</pos>
 		</image>
 
+		<!-- Game List -->
 		<textlist name="gamelist">
 			<selectedColor>80b3ff</selectedColor>
 			<primaryColor>c6d9ec</primaryColor>
@@ -39,24 +40,17 @@ license: Apache
 			<scrollSound>./art/sounds/click.wav</scrollSound>
 		</textlist>
 
-		<image name="md_image">
-			<pos>0.7 0.43</pos>
-			<maxSize>0.53 0.4</maxSize>
-			<origin>0.5 0.5</origin>
-		</image>
-
-		<text name="md_genre, md_lbl_genre, md_players, md_lbl_players">
+		<!-- Metadata -->
+		<text name="md_genre, md_players, md_lbl_players">
 			<color>c6d9ec</color>
 			<forceUppercase>0</forceUppercase>
 			<fontPath>./art/fonts/Optima.ttc</fontPath>
 			<fontSize>0.028</fontSize>
 		</text>
-
 		<text name="md_genre">
 			<pos>0.55 0.18</pos>
 			<size>0 0.033</size>
 		</text>
-
 		<text name="md_lbl_players">
 			<pos>0.655 0.18</pos>
 			<size>0 0.033</size>
@@ -66,6 +60,14 @@ license: Apache
 			<size>0 0.033</size>
 		</text>
 
+		<!-- Image -->
+		<image name="md_image">
+			<pos>0.7 0.43</pos>
+			<maxSize>0.53 0.4</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+
+		<!-- Icons for kids mode -->
 		<image name="md_favorite">
 			<pos>0.81 0.2</pos>
 			<path>./art/icons/favorite.svg</path>
@@ -88,6 +90,7 @@ license: Apache
 			<color>c6d9ec</color>
 		</image>
 
+		<!-- Description -->
 		<text name="md_description">
 			<color>c6d9ec</color>
 			<forceUppercase>0</forceUppercase>
@@ -97,11 +100,7 @@ license: Apache
 			<pos>0.44 0.65</pos>
 		</text>
 
-
-		<text name="md_lbl_rating, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate, md_lbl_genre, md_lbl_developer, md_lastplayed, md_releasedate">
-			<pos>1 1</pos>
-		</text>
-
+		<!-- Footer -->
 		<image name="bottom" extra="true">
 			<pos>0 1</pos>
 			<origin>0 1</origin>
@@ -109,7 +108,6 @@ license: Apache
 			<path>./art/bottom.png</path>
 			<color>1aa3ff33</color>
 		</image>
-
 		<helpsystem name="help">
 			<textColor>cce6ff</textColor>
 			<iconColor>99ccff</iconColor>
@@ -117,6 +115,28 @@ license: Apache
 			<fontSize>0.025</fontSize>
 		</helpsystem>
 
+		<!-- hide these fields -->
+		<text name="md_lbl_rating, md_rating">
+			<pos>1 1</pos>
+		</text>
+		<text name="md_lbl_publisher, md_publisher">
+			<pos>1 1</pos>
+		</text>
+		<text name="md_lbl_releasedate, md_releasedate">
+			<pos>1 1</pos>
+		</text>
+		<text name="md_lbl_lastplayed, md_lastplayed">
+			<pos>1 1</pos>
+		</text>
+		<text name="md_lbl_playcount, md_playcount">
+			<pos>1 1</pos>
+		</text>
+		<text name="md_lbl_genre">
+			<pos>1 1</pos>
+		</text>
+		<text name="md_lbl_developer, md_developer">
+			<pos>1 1</pos>
+		</text>
 	</view>
 
 </theme>
