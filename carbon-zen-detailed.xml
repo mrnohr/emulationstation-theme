@@ -22,11 +22,11 @@ license: Apache
 			<!-- Common colors, etc for all lines -->
 			<path>./art/layout/bg_color.png</path>
  		    <origin>0.0 0.0</origin>
-			<color>FF00EECC</color>
+			<color>1aa3ff33</color>
 		</image>
 		<image name="layout_vert_1" extra="true">
  		    <pos>0.37 0.0</pos>
- 		    <size>0.005 0.935</size>
+ 		    <size>0.005 0.934</size>
  		</image>
 		<image name="layout_horiz_1" extra="true">
 			<pos>0.0 0.8</pos>
