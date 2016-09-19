@@ -9,6 +9,7 @@ license: Apache
 
 	<view name="detailed">
 
+		<!-- Background -->
 		<image name="background" extra="true">
 			<path>./art/backgrounds/dark-blue.jpg</path>
 			<pos>0 0</pos>
@@ -16,13 +17,31 @@ license: Apache
 			<size>1 1</size>
 		</image>
 
+		<!-- Layout lines -->
+		<image name="layout_vert_1, layout_horiz_1" extra="true">
+			<!-- Common colors, etc for all lines -->
+			<path>./art/layout/bg_color.png</path>
+ 		    <origin>0.0 0.0</origin>
+			<color>FF00EECC</color>
+		</image>
+		<image name="layout_vert_1" extra="true">
+ 		    <pos>0.37 0.0</pos>
+ 		    <size>0.005 0.935</size>
+ 		</image>
+		<image name="layout_horiz_1" extra="true">
+			<pos>0.0 0.8</pos>
+			<size>0.37 0.005</size>
+		</image>
+
+		<!-- System Logos -->
 		<image name="logo">
-			<pos>0.160 0.052</pos>
-			<maxSize>0.276 0.076</maxSize>
+			<pos>0.15 0.87</pos>
+			<maxSize>0.3 0.09</maxSize>
 			<origin>0.5 0.5</origin>
 		</image>
 
 		<image name="logo2" extra="true">
+			<!-- Hidden -->
 			<pos>1 1</pos>
 		</image>
 
@@ -32,8 +51,8 @@ license: Apache
 			<primaryColor>c6d9ec</primaryColor>
 			<secondaryColor>7a6161</secondaryColor>
 			<fontPath>./art/fonts/Optima.ttc</fontPath>
-			<pos>0.021 0.118</pos>
-			<size>0.4 0.804</size>
+			<pos>0.021 0.02</pos>
+			<size>0.34 0.77</size>
 			<alignment>left</alignment>
 			<horizontalMargin>0.00</horizontalMargin>
 			<fontSize>0.025</fontSize>
