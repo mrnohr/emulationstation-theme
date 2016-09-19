@@ -21,20 +21,20 @@ license: Apache
 		<image name="layout_vert_1, layout_vert_2, layout_horiz_1, layout_horiz_2" extra="true">
 			<!-- Common colors, etc for all lines -->
 			<path>./art/layout/bg_color.png</path>
- 		    <origin>0.0 0.0</origin>
+ 			<origin>0.0 0.0</origin>
 			<color>1aa3ff33</color>
 		</image>
 		<image name="layout_vert_1" extra="true">
- 		    <pos>0.37 0.0</pos>
- 		    <size>0.005 0.934</size>
+ 			<pos>0.37 0.0</pos>
+ 			<size>0.005 0.934</size>
  		</image>
 		<image name="layout_horiz_1" extra="true">
 			<pos>0.0 0.8</pos>
 			<size>0.37 0.005</size>
 		</image>
 		<image name="layout_vert_2" extra="true">
- 		    <pos>0.7 0.0</pos>
- 		    <size>0.005 0.6</size>
+ 			<pos>0.7 0.0</pos>
+ 			<size>0.005 0.6</size>
  		</image>
 		<image name="layout_horiz_2" extra="true">
 			<pos>0.375 0.6</pos>
@@ -67,26 +67,6 @@ license: Apache
 			<scrollSound>./art/sounds/click.wav</scrollSound>
 		</textlist>
 
-		<!-- Metadata -->
-		<text name="md_genre, md_players, md_lbl_players">
-			<color>c6d9ec</color>
-			<forceUppercase>0</forceUppercase>
-			<fontPath>./art/fonts/Optima.ttc</fontPath>
-			<fontSize>0.028</fontSize>
-		</text>
-		<text name="md_genre">
-			<pos>0.55 0.18</pos>
-			<size>0 0.033</size>
-		</text>
-		<text name="md_lbl_players">
-			<pos>0.655 0.18</pos>
-			<size>0 0.033</size>
-		</text>
-		<text name="md_players">
-			<pos>0.72 0.18</pos>
-			<size>0 0.033</size>
-		</text>
-
 		<!-- Image -->
 		<image name="md_image">
 			<pos>0.385 0.03</pos>
@@ -94,27 +74,68 @@ license: Apache
 			<origin>0.0 0.0</origin>
 		</image>
 
-		<!-- Icons for kids mode -->
-		<image name="md_favorite">
-			<pos>0.81 0.2</pos>
-			<path>./art/icons/favorite.svg</path>
-			<maxSize>0.032 0.032</maxSize>
-			<origin>0.5 0.5</origin>
+		<!-- Metadata -->
+		<text name="md_lbl_genre, md_genre, md_lbl_players, md_players, md_lbl_rating, md_lbl_releasedate">
+			<!-- Common fonts, etc for all metadata -->
 			<color>c6d9ec</color>
+			<fontPath>./art/fonts/Optima.ttc</fontPath>
+			<fontSize>0.028</fontSize>
+			<size>0 0.033</size>
+		</text>
+
+		<text name="md_lbl_genre">
+			<pos>0.71 0.05</pos>
+		</text>
+		<text name="md_genre">
+			<pos>0.79 0.05</pos>
+		</text>
+
+		<text name="md_lbl_players">
+			<pos>0.71 0.1</pos>
+		</text>
+		<text name="md_players">
+			<pos>0.79 0.1</pos>
+		</text>
+
+		<text name="md_lbl_rating">
+			<pos>0.71 0.15</pos>
+		</text>
+		<rating name="md_rating">
+			<pos>0.79 0.15</pos>
+			<size>0 0.033</size>
+			<!-- To change the star color, edit the svg files with a text editor -->
+			<filledPath>./art/icons/star_filled_spacing.svg</filledPath>
+			<unfilledPath>./art/icons/star_hollow_spacing.svg</unfilledPath>
+		</rating>
+
+		<text name="md_lbl_releasedate">
+			<pos>0.71 0.2</pos>
+		</text>
+		<datetime name="md_releasedate">
+			<pos>0.79 0.205</pos> <!-- Y needs to be a little lower for datetime -->
+			<color>c6d9ec</color>
+			<fontPath>./art/fonts/Optima.ttc</fontPath>
+			<fontSize>0.028</fontSize>
+			<size>0 0.033</size>
+		</datetime>
+
+		<!-- Icons for kids mode -->
+		<image name="md_favorite, md_kidgame, md_hidden">
+			<maxSize>0.033 0.033</maxSize>
+			<origin>0.0 0.0</origin>
+			<color>c6d9ec</color>
+		</image>
+		<image name="md_favorite">
+			<pos>0.71 0.25</pos>
+			<path>./art/icons/favorite.svg</path>
 		</image>
 		<image name="md_kidgame">
-			<pos>0.84 0.2</pos>
+			<pos>0.75 0.25</pos>
 			<path>./art/icons/kid.svg</path>
-			<maxSize>0.032 0.032</maxSize>
-			<origin>0.5 0.5</origin>
-			<color>c6d9ec</color>
 		</image>
 		<image name="md_hidden">
-			<pos>0.87 0.2</pos>
+			<pos>0.71 0.3</pos>
 			<path>./art/icons/hidden.svg</path>
-			<maxSize>0.032 0.032</maxSize>
-			<origin>0.5 0.5</origin>
-			<color>c6d9ec</color>
 		</image>
 
 		<!-- Description -->
@@ -143,22 +164,13 @@ license: Apache
 		</helpsystem>
 
 		<!-- hide these fields -->
-		<text name="md_lbl_rating, md_rating">
-			<pos>1 1</pos>
-		</text>
 		<text name="md_lbl_publisher, md_publisher">
-			<pos>1 1</pos>
-		</text>
-		<text name="md_lbl_releasedate, md_releasedate">
 			<pos>1 1</pos>
 		</text>
 		<text name="md_lbl_lastplayed, md_lastplayed">
 			<pos>1 1</pos>
 		</text>
 		<text name="md_lbl_playcount, md_playcount">
-			<pos>1 1</pos>
-		</text>
-		<text name="md_lbl_genre">
 			<pos>1 1</pos>
 		</text>
 		<text name="md_lbl_developer, md_developer">
