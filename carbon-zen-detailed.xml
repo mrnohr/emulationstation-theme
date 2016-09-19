@@ -39,97 +39,68 @@ license: Apache
 			<scrollSound>./art/sounds/click.wav</scrollSound>
 		</textlist>
 
-		<image name="image_helper_2" extra="true">
-		    <path>./art/layout/bg_color.png</path>
-		    <origin>0.5 0.5</origin>
-		    <pos>0.7 0.43</pos>
-		    <size>0.53 0.4</size>
-		    <color>0000EE44</color>
-		</image>
-
 		<image name="md_image">
 			<pos>0.7 0.43</pos>
 			<maxSize>0.53 0.4</maxSize>
 			<origin>0.5 0.5</origin>
 		</image>
 
-
-
-
-
-
-
-
-		<text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_players, md_players, md_lbl_releasedate">
+		<text name="md_genre, md_lbl_genre, md_players, md_lbl_players">
 			<color>c6d9ec</color>
 			<forceUppercase>0</forceUppercase>
 			<fontPath>./art/fonts/Optima.ttc</fontPath>
 			<fontSize>0.028</fontSize>
 		</text>
-
-		<text name="md_lbl_rating, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate, md_lbl_genre, md_lbl_developer">
-			<pos>1 1</pos>
-		</text>
-
-		<datetime name="md_lastplayed, md_releasedate">
-			<color>c6d9ec</color>
-			<forceUppercase>0</forceUppercase>
-			<fontPath>./art/fonts/Optima.ttc</fontPath>
-			<fontSize>0.028</fontSize>
-		</datetime>
 
 		<text name="md_genre">
-			<pos>0.53 0.63</pos>
+			<pos>0.55 0.18</pos>
 			<size>0 0.033</size>
 		</text>
 
-		<text name="md_lbl_players, md_players">
-			<pos>0.91 0.63</pos>
-			<size>0.09 0</size>
+		<text name="md_lbl_players">
+			<pos>0.655 0.18</pos>
+			<size>0 0.033</size>
+		</text>
+		<text name="md_players">
+			<pos>0.72 0.18</pos>
+			<size>0 0.033</size>
 		</text>
 
-		<text name="md_players">
-			<pos>0.98 0.63</pos>
-			<size>0.02 0</size>
-		</text>
+		<image name="md_favorite">
+			<pos>0.81 0.2</pos>
+			<path>./art/icons/favorite.svg</path>
+			<maxSize>0.032 0.032</maxSize>
+			<origin>0.5 0.5</origin>
+			<color>c6d9ec</color>
+		</image>
+		<image name="md_kidgame">
+			<pos>0.84 0.2</pos>
+			<path>./art/icons/kid.svg</path>
+			<maxSize>0.032 0.032</maxSize>
+			<origin>0.5 0.5</origin>
+			<color>c6d9ec</color>
+		</image>
+		<image name="md_hidden">
+			<pos>0.87 0.2</pos>
+			<path>./art/icons/hidden.svg</path>
+			<maxSize>0.032 0.032</maxSize>
+			<origin>0.5 0.5</origin>
+			<color>c6d9ec</color>
+		</image>
 
 		<text name="md_description">
 			<color>c6d9ec</color>
 			<forceUppercase>0</forceUppercase>
 			<fontPath>./art/fonts/Optima.ttc</fontPath>
 			<fontSize>0.023</fontSize>
-			<size>0.467 0.24</size>
-			<pos>0.530 0.68</pos>
+			<size>0.53 0.28</size>
+			<pos>0.44 0.65</pos>
 		</text>
 
 
-
-		<image name="md_hidden">
-			<pos>0.81 0.65</pos>
-			<path>./art/icons/hidden.svg</path>
-			<maxSize>0.032 0.032</maxSize>
-			<origin>0.5 0.5</origin>
-			<color>c6d9ec</color>
-		</image>
-		<image name="md_kidgame">
-			<pos>0.78 0.65</pos>
-			<path>./art/icons/kid.svg</path>
-			<maxSize>0.032 0.032</maxSize>
-			<origin>0.5 0.5</origin>
-			<color>c6d9ec</color>
-		</image>
-		<image name="md_favorite">
-			<pos>0.75 0.65</pos>
-			<path>./art/icons/favorite.svg</path>
-			<maxSize>0.032 0.032</maxSize>
-			<origin>0.5 0.5</origin>
-			<color>c6d9ec</color>
-		</image>
-
-
-
-
-
+		<text name="md_lbl_rating, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate, md_lbl_genre, md_lbl_developer, md_lastplayed, md_releasedate">
+			<pos>1 1</pos>
+		</text>
 
 		<image name="bottom" extra="true">
 			<pos>0 1</pos>
