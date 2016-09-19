@@ -18,7 +18,7 @@ license: Apache
 		</image>
 
 		<!-- Layout lines -->
-		<image name="layout_vert_1, layout_horiz_1, layout_horiz_2" extra="true">
+		<image name="layout_vert_1, layout_vert_2, layout_horiz_1, layout_horiz_2" extra="true">
 			<!-- Common colors, etc for all lines -->
 			<path>./art/layout/bg_color.png</path>
  		    <origin>0.0 0.0</origin>
@@ -32,11 +32,14 @@ license: Apache
 			<pos>0.0 0.8</pos>
 			<size>0.37 0.005</size>
 		</image>
+		<image name="layout_vert_2" extra="true">
+ 		    <pos>0.7 0.0</pos>
+ 		    <size>0.005 0.6</size>
+ 		</image>
 		<image name="layout_horiz_2" extra="true">
 			<pos>0.375 0.6</pos>
 			<size>0.625 0.005</size>
 		</image>
-
 
 		<!-- System Logos -->
 		<image name="logo">
@@ -86,9 +89,9 @@ license: Apache
 
 		<!-- Image -->
 		<image name="md_image">
-			<pos>0.7 0.43</pos>
-			<maxSize>0.53 0.4</maxSize>
-			<origin>0.5 0.5</origin>
+			<pos>0.385 0.03</pos>
+			<maxSize>0.305 0.55</maxSize>
+			<origin>0.0 0.0</origin>
 		</image>
 
 		<!-- Icons for kids mode -->
