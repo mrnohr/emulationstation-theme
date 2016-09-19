@@ -18,7 +18,7 @@ license: Apache
 		</image>
 
 		<!-- Layout lines -->
-		<image name="layout_vert_1, layout_horiz_1" extra="true">
+		<image name="layout_vert_1, layout_horiz_1, layout_horiz_2" extra="true">
 			<!-- Common colors, etc for all lines -->
 			<path>./art/layout/bg_color.png</path>
  		    <origin>0.0 0.0</origin>
@@ -32,6 +32,11 @@ license: Apache
 			<pos>0.0 0.8</pos>
 			<size>0.37 0.005</size>
 		</image>
+		<image name="layout_horiz_2" extra="true">
+			<pos>0.375 0.6</pos>
+			<size>0.625 0.005</size>
+		</image>
+
 
 		<!-- System Logos -->
 		<image name="logo">
@@ -115,8 +120,8 @@ license: Apache
 			<forceUppercase>0</forceUppercase>
 			<fontPath>./art/fonts/Optima.ttc</fontPath>
 			<fontSize>0.023</fontSize>
-			<size>0.53 0.28</size>
-			<pos>0.44 0.65</pos>
+			<size>0.6 0.3</size>
+			<pos>0.39 0.62</pos>
 		</text>
 
 		<!-- Footer -->
