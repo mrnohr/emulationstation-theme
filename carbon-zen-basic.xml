@@ -27,9 +27,6 @@ license: Apache
 			<scrollSound>./art/sounds/click.wav</scrollSound>
 		</textlist>
 
-	</view>
-
-	<view name="basic, detailed">
 		<image name="logo">
 			<pos>0.266 0.074</pos>
 			<maxSize>0.460 0.126</maxSize>
@@ -65,6 +62,7 @@ license: Apache
 			<fontPath>./art/fonts/Optima.ttc</fontPath>
 			<fontSize>0.025</fontSize>
 		</helpsystem>
+
 	</view>
 
 </theme>
