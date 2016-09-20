@@ -37,11 +37,6 @@ license: Apache
 			<origin>0.5 0.5</origin>
 		</image>
 
-		<image name="logo2" extra="true">
-			<!-- Hidden -->
-			<pos>1 1</pos>
-		</image>
-
 		<!-- Game List -->
 		<textlist name="gamelist">
 			<selectedColor>80b3ff</selectedColor>
