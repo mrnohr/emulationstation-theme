@@ -3,28 +3,15 @@
     <include>./../carbon-zen.xml</include>
 
 	<view name="system">
-
 		<image name="ControllerOverlay" extra="true">
 			<path>./art/controller.svg</path>
-			<!--<color>8b0000</color>-->
 		</image>
-
-		<image name="logo">
-			<path>./art/system.svg</path>
-        </image>
-
 	</view>
 
-	<view name="basic, detailed">
-
+	<view name="basic, detailed, system">
 		<image name="logo">
 			<path>./art/system.svg</path>
 		</image>
-
-		<image name="logo2" extra="true">
-			<path>./art/controller.svg</path>
-		</image>
-
 	</view>
 
 </theme>
