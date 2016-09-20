@@ -6,6 +6,7 @@ license: Apache
 -->
 <theme>
 	<formatVersion>4</formatVersion>
+	<include>./carbon-zen-detailed-metadata.xml</include>
 
 	<view name="detailed">
 
@@ -28,8 +29,6 @@ license: Apache
  			<pos>0.37 0.0</pos>
  			<size>0.005 0.934</size>
  		</image>
-
-
 
 		<!-- System Logo(s) -->
 		<image name="logo">
@@ -65,98 +64,7 @@ license: Apache
 		</image>
 
 		<!-- Metadata -->
-		<text name="md_lbl_genre, md_genre, md_lbl_players, md_players, md_lbl_rating, md_lbl_releasedate, md_lbl_publisher, md_publisher, md_lbl_developer, md_developer, md_lbl_lastplayed, md_lbl_playcount, md_playcount">
-			<!-- Common fonts, etc for all metadata -->
-			<color>c6d9ec</color>
-			<fontPath>./art/fonts/Optima.ttc</fontPath>
-			<fontSize>0.028</fontSize>
-			<size>0 0.033</size>
-		</text>
-		<datetime name="md_releasedate, md_lastplayed">
-			<color>c6d9ec</color>
-			<fontPath>./art/fonts/Optima.ttc</fontPath>
-			<fontSize>0.028</fontSize>
-			<size>0 0.033</size>
-		</datetime>
-
-		<text name="md_lbl_genre">
-			<pos>0.71 0.05</pos>
-		</text>
-		<text name="md_genre">
-			<pos>0.82 0.05</pos>
-		</text>
-
-		<text name="md_lbl_rating">
-			<pos>0.71 0.1</pos>
-		</text>
-		<rating name="md_rating">
-			<pos>0.82 0.1</pos>
-			<size>0 0.033</size>
-			<!-- To change the star color, edit the svg files with a text editor -->
-			<filledPath>./art/icons/star_filled_spacing.svg</filledPath>
-			<unfilledPath>./art/icons/star_hollow_spacing.svg</unfilledPath>
-		</rating>
-
-		<text name="md_lbl_players">
-			<pos>0.71 0.15</pos>
-		</text>
-		<text name="md_players">
-			<pos>0.82 0.15</pos>
-		</text>
-
-		<text name="md_lbl_releasedate">
-			<pos>0.71 0.2</pos>
-		</text>
-		<datetime name="md_releasedate">
-			<pos>0.82 0.205</pos> <!-- Y needs to be a little lower for datetime -->
-		</datetime>
-
-		<text name="md_lbl_publisher">
-			<pos>0.71 0.25</pos>
-		</text>
-		<text name="md_publisher">
-			<pos>0.82 0.25</pos>
-		</text>
-
-		<text name="md_lbl_developer">
-			<pos>0.71 0.3</pos>
-		</text>
-		<text name="md_developer">
-			<pos>0.82 0.3</pos>
-		</text>
-
-		<text name="md_lbl_lastplayed">
-			<pos>0.71 0.35</pos>
-		</text>
-		<datetime name="md_lastplayed">
-			<pos>0.82 0.355</pos>
-		</datetime>
-
-		<text name="md_lbl_playcount">
-			<pos>0.71 0.4</pos>
-		</text>
-		<text name="md_playcount">
-			<pos>0.82 0.4</pos>
-		</text>
-
-		<!-- Icons for kids mode -->
-		<image name="md_favorite, md_kidgame, md_hidden">
-			<maxSize>0.033 0.033</maxSize>
-			<origin>0.0 0.0</origin>
-			<color>c6d9ec</color>
-		</image>
-		<image name="md_favorite">
-			<pos>0.71 0.45</pos>
-			<path>./art/icons/favorite.svg</path>
-		</image>
-		<image name="md_kidgame">
-			<pos>0.75 0.45</pos>
-			<path>./art/icons/kid.svg</path>
-		</image>
-		<image name="md_hidden">
-			<pos>0.71 0.5</pos>
-			<path>./art/icons/hidden.svg</path>
-		</image>
+		<!-- Included in carbon-zen-detailed-metadata.xml -->
 
 		<!-- Description -->
 		<text name="md_description">
