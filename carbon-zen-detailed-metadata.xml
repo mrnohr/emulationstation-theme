@@ -91,15 +91,15 @@ license: Apache
 			<color>c6d9ec</color>
 		</image>
 		<image name="md_favorite">
-			<pos>0.71 0.45</pos>
+			<pos>0.71 0.46</pos>
 			<path>./art/icons/favorite.svg</path>
 		</image>
 		<image name="md_kidgame">
-			<pos>0.75 0.45</pos>
+			<pos>0.75 0.46</pos>
 			<path>./art/icons/kid.svg</path>
 		</image>
 		<image name="md_hidden">
-			<pos>0.71 0.5</pos>
+			<pos>0.71 0.52</pos>
 			<path>./art/icons/hidden.svg</path>
 		</image>
 
