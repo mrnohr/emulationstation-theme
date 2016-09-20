@@ -18,7 +18,7 @@ license: Apache
 		</image>
 
 		<!-- Layout lines -->
-		<image name="layout_vert_1, layout_vert_2, layout_horiz_1, layout_horiz_2" extra="true">
+		<image name="layout_vert_1" extra="true">
 			<!-- Common colors, etc for all lines -->
 			<path>./art/layout/bg_color.png</path>
  			<origin>0.0 0.0</origin>
@@ -28,23 +28,13 @@ license: Apache
  			<pos>0.37 0.0</pos>
  			<size>0.005 0.934</size>
  		</image>
-		<image name="layout_horiz_1" extra="true">
-			<pos>0.0 0.8</pos>
-			<size>0.37 0.005</size>
-		</image>
-		<image name="layout_vert_2" extra="true">
- 			<pos>0.7 0.0</pos>
- 			<size>0.005 0.6</size>
- 		</image>
-		<image name="layout_horiz_2" extra="true">
-			<pos>0.375 0.6</pos>
-			<size>0.625 0.005</size>
-		</image>
 
-		<!-- System Logos -->
+
+
+		<!-- System Logo(s) -->
 		<image name="logo">
-			<pos>0.15 0.87</pos>
-			<maxSize>0.3 0.09</maxSize>
+			<pos>0.18 0.08</pos>
+			<maxSize>0.2 0.09</maxSize>
 			<origin>0.5 0.5</origin>
 		</image>
 
@@ -59,8 +49,8 @@ license: Apache
 			<primaryColor>c6d9ec</primaryColor>
 			<secondaryColor>7a6161</secondaryColor>
 			<fontPath>./art/fonts/Optima.ttc</fontPath>
-			<pos>0.021 0.02</pos>
-			<size>0.34 0.77</size>
+			<pos>0.021 0.16</pos>
+			<size>0.34 0.76</size>
 			<alignment>left</alignment>
 			<horizontalMargin>0.00</horizontalMargin>
 			<fontSize>0.025</fontSize>
@@ -69,55 +59,85 @@ license: Apache
 
 		<!-- Image -->
 		<image name="md_image">
-			<pos>0.385 0.03</pos>
+			<pos>0.54 0.3</pos>
 			<maxSize>0.305 0.55</maxSize>
-			<origin>0.0 0.0</origin>
+			<origin>0.5 0.5</origin>
 		</image>
 
 		<!-- Metadata -->
-		<text name="md_lbl_genre, md_genre, md_lbl_players, md_players, md_lbl_rating, md_lbl_releasedate">
+		<text name="md_lbl_genre, md_genre, md_lbl_players, md_players, md_lbl_rating, md_lbl_releasedate, md_lbl_publisher, md_publisher, md_lbl_developer, md_developer, md_lbl_lastplayed, md_lbl_playcount, md_playcount">
 			<!-- Common fonts, etc for all metadata -->
 			<color>c6d9ec</color>
 			<fontPath>./art/fonts/Optima.ttc</fontPath>
 			<fontSize>0.028</fontSize>
 			<size>0 0.033</size>
 		</text>
+		<datetime name="md_releasedate, md_lastplayed">
+			<color>c6d9ec</color>
+			<fontPath>./art/fonts/Optima.ttc</fontPath>
+			<fontSize>0.028</fontSize>
+			<size>0 0.033</size>
+		</datetime>
 
 		<text name="md_lbl_genre">
 			<pos>0.71 0.05</pos>
 		</text>
 		<text name="md_genre">
-			<pos>0.79 0.05</pos>
-		</text>
-
-		<text name="md_lbl_players">
-			<pos>0.71 0.1</pos>
-		</text>
-		<text name="md_players">
-			<pos>0.79 0.1</pos>
+			<pos>0.82 0.05</pos>
 		</text>
 
 		<text name="md_lbl_rating">
-			<pos>0.71 0.15</pos>
+			<pos>0.71 0.1</pos>
 		</text>
 		<rating name="md_rating">
-			<pos>0.79 0.15</pos>
+			<pos>0.82 0.1</pos>
 			<size>0 0.033</size>
 			<!-- To change the star color, edit the svg files with a text editor -->
 			<filledPath>./art/icons/star_filled_spacing.svg</filledPath>
 			<unfilledPath>./art/icons/star_hollow_spacing.svg</unfilledPath>
 		</rating>
 
+		<text name="md_lbl_players">
+			<pos>0.71 0.15</pos>
+		</text>
+		<text name="md_players">
+			<pos>0.82 0.15</pos>
+		</text>
+
 		<text name="md_lbl_releasedate">
 			<pos>0.71 0.2</pos>
 		</text>
 		<datetime name="md_releasedate">
-			<pos>0.79 0.205</pos> <!-- Y needs to be a little lower for datetime -->
-			<color>c6d9ec</color>
-			<fontPath>./art/fonts/Optima.ttc</fontPath>
-			<fontSize>0.028</fontSize>
-			<size>0 0.033</size>
+			<pos>0.82 0.205</pos> <!-- Y needs to be a little lower for datetime -->
 		</datetime>
+
+		<text name="md_lbl_publisher">
+			<pos>0.71 0.25</pos>
+		</text>
+		<text name="md_publisher">
+			<pos>0.82 0.25</pos>
+		</text>
+
+		<text name="md_lbl_developer">
+			<pos>0.71 0.3</pos>
+		</text>
+		<text name="md_developer">
+			<pos>0.82 0.3</pos>
+		</text>
+
+		<text name="md_lbl_lastplayed">
+			<pos>0.71 0.35</pos>
+		</text>
+		<datetime name="md_lastplayed">
+			<pos>0.82 0.355</pos>
+		</datetime>
+
+		<text name="md_lbl_playcount">
+			<pos>0.71 0.4</pos>
+		</text>
+		<text name="md_playcount">
+			<pos>0.82 0.4</pos>
+		</text>
 
 		<!-- Icons for kids mode -->
 		<image name="md_favorite, md_kidgame, md_hidden">
@@ -126,15 +146,15 @@ license: Apache
 			<color>c6d9ec</color>
 		</image>
 		<image name="md_favorite">
-			<pos>0.71 0.25</pos>
+			<pos>0.71 0.45</pos>
 			<path>./art/icons/favorite.svg</path>
 		</image>
 		<image name="md_kidgame">
-			<pos>0.75 0.25</pos>
+			<pos>0.75 0.45</pos>
 			<path>./art/icons/kid.svg</path>
 		</image>
 		<image name="md_hidden">
-			<pos>0.71 0.3</pos>
+			<pos>0.71 0.5</pos>
 			<path>./art/icons/hidden.svg</path>
 		</image>
 
@@ -163,19 +183,6 @@ license: Apache
 			<fontSize>0.025</fontSize>
 		</helpsystem>
 
-		<!-- hide these fields -->
-		<text name="md_lbl_publisher, md_publisher">
-			<pos>1 1</pos>
-		</text>
-		<text name="md_lbl_lastplayed, md_lastplayed">
-			<pos>1 1</pos>
-		</text>
-		<text name="md_lbl_playcount, md_playcount">
-			<pos>1 1</pos>
-		</text>
-		<text name="md_lbl_developer, md_developer">
-			<pos>1 1</pos>
-		</text>
 	</view>
 
 </theme>
