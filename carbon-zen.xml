@@ -7,6 +7,7 @@ license: Apache
 <theme>
 	<formatVersion>4</formatVersion>
 	<include>./carbon-zen-system.xml</include>
+	<include>./carbon-zen-common.xml</include>
 	<include>./carbon-zen-basic.xml</include>
 	<include>./carbon-zen-detailed.xml</include>
 

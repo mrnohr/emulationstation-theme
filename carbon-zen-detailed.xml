@@ -9,15 +9,6 @@ license: Apache
 	<include>./carbon-zen-detailed-metadata.xml</include>
 
 	<view name="detailed">
-
-		<!-- Background -->
-		<image name="background" extra="true">
-			<path>./art/backgrounds/dark-blue.jpg</path>
-			<pos>0 0</pos>
-			<origin>0 0</origin>
-			<size>1 1</size>
-		</image>
-
 		<!-- Layout lines -->
 		<image name="layout_vert_1" extra="true">
 			<!-- Common colors, etc for all lines -->
@@ -29,27 +20,6 @@ license: Apache
  			<pos>0.37 0.0</pos>
  			<size>0.005 0.934</size>
  		</image>
-
-		<!-- System Logo(s) -->
-		<image name="logo">
-			<pos>0.18 0.08</pos>
-			<maxSize>0.2 0.09</maxSize>
-			<origin>0.5 0.5</origin>
-		</image>
-
-		<!-- Game List -->
-		<textlist name="gamelist">
-			<selectedColor>80b3ff</selectedColor>
-			<primaryColor>c6d9ec</primaryColor>
-			<secondaryColor>7a6161</secondaryColor>
-			<fontPath>./art/fonts/Optima.ttc</fontPath>
-			<pos>0.021 0.16</pos>
-			<size>0.34 0.76</size>
-			<alignment>left</alignment>
-			<horizontalMargin>0.00</horizontalMargin>
-			<fontSize>0.025</fontSize>
-			<scrollSound>./art/sounds/click.wav</scrollSound>
-		</textlist>
 
 		<!-- Image -->
 		<image name="md_image">
@@ -70,21 +40,6 @@ license: Apache
 			<size>0.6 0.3</size>
 			<pos>0.39 0.62</pos>
 		</text>
-
-		<!-- Footer -->
-		<image name="bottom" extra="true">
-			<pos>0 1</pos>
-			<origin>0 1</origin>
-			<size>1 0.065</size>
-			<path>./art/bottom.png</path>
-			<color>1aa3ff33</color>
-		</image>
-		<helpsystem name="help">
-			<textColor>cce6ff</textColor>
-			<iconColor>99ccff</iconColor>
-			<fontPath>./art/fonts/Optima.ttc</fontPath>
-			<fontSize>0.025</fontSize>
-		</helpsystem>
 
 	</view>
 
