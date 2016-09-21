@@ -1,4 +1,4 @@
-# Carbon Zen Theme
+# Cool Blue Theme
 
 This is a theme for [Emulation Station / RetroPie](https://github.com/retropie/retropie-setup/wiki/themes). It is based
 on the standard [Carbon theme](https://github.com/RetroPie/es-theme-carbon) but a little more peaceful.
@@ -16,5 +16,5 @@ For information on creating your own theme, check out: [Creating Your Own Emulat
 ## Installation
 
 To install, you'll need to ssh into your raspberry pi. Then `mkdir ~/.emulationstation/themes` (if it doesn't exist).
-After that you can just clone this repository there: `git clone https://github.com/mrnohr/es-theme-carbon-zen carbon-zen`.
-Once the theme is downloaded/cloned. You can use the EmulationStation UI/menus to change to "carbon-zen".
+After that you can just clone this repository there: `git clone https://github.com/mrnohr/es-theme-cool-blue cool-blue`.
+Once the theme is downloaded/cloned. You can use the EmulationStation UI/menus to change to "cool-blue".

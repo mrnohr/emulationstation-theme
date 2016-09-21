@@ -1,15 +1,15 @@
 <!--
-Theme: Carbon Zen
+Theme: Cool Blue
 version: 1.0
 author: Matt Nohr
 license: Apache
 -->
 <theme>
 	<formatVersion>4</formatVersion>
-	<include>./carbon-zen-system.xml</include>
-	<include>./carbon-zen-common.xml</include>
-	<include>./carbon-zen-basic.xml</include>
-	<include>./carbon-zen-detailed.xml</include>
+	<include>./cool-blue-system.xml</include>
+	<include>./cool-blue-common.xml</include>
+	<include>./cool-blue-basic.xml</include>
+	<include>./cool-blue-detailed.xml</include>
 
 	<!-- Sounds
 <sound name="systemscroll">

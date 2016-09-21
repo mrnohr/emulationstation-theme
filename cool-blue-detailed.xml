@@ -1,12 +1,12 @@
 <!--
-Theme: Carbon Zen
+Theme: Cool Blue
 version: 1.0
 author: Matt Nohr
 license: Apache
 -->
 <theme>
 	<formatVersion>4</formatVersion>
-	<include>./carbon-zen-detailed-metadata.xml</include>
+	<include>./cool-blue-detailed-metadata.xml</include>
 
 	<view name="detailed">
 		<!-- Layout lines -->
@@ -29,7 +29,7 @@ license: Apache
 		</image>
 
 		<!-- Metadata -->
-		<!-- Included in carbon-zen-detailed-metadata.xml -->
+		<!-- Included in cool-blue-detailed-metadata.xml -->
 
 		<!-- Description -->
 		<text name="md_description">
