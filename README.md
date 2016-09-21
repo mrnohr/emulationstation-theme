@@ -15,6 +15,9 @@ For information on creating your own theme, check out: [Creating Your Own Emulat
 
 ## Installation
 
-To install, you'll need to ssh into your raspberry pi. Then `mkdir ~/.emulationstation/themes` (if it doesn't exist).
-After that you can just clone this repository there: `git clone https://github.com/mrnohr/es-theme-cool-blue cool-blue`.
-Once the theme is downloaded/cloned. You can use the EmulationStation UI/menus to change to "cool-blue".
+To install, you'll need to download/clone this repository into the right directory, then set it in EmulationStation.
+
+1. `mkdir ~/.emulationstation/themes` (if it doesn't exist)
+2. `cd ~/.emulationstation/themes`
+3. `git clone https://github.com/mrnohr/es-theme-cool-blue cool-blue`
+4. Once the theme is downloaded/cloned. You can use the EmulationStation UI/menus to change to "cool-blue".
