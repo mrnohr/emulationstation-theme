@@ -1,6 +1,7 @@
 <theme>
     <formatVersion>4</formatVersion>
     <include>./../cool-blue.xml</include>
+    <include>./theme-override.xml</include>
 
 	<view name="system">
 		<image name="ControllerOverlay" extra="true">

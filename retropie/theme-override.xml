@@ -1,0 +1,10 @@
+<theme>
+    <formatVersion>4</formatVersion>
+    <include>./../cool-blue.xml</include>
+
+	<view name="detailed">
+        <text name="md_lbl_genre, md_genre, md_lbl_players, md_players, md_lbl_rating, md_lbl_releasedate, md_lbl_publisher, md_publisher, md_lbl_developer, md_developer, md_lbl_lastplayed, md_lbl_playcount, md_playcount">
+            <pos>1 1</pos>
+        </text>
+	</view>
+</theme>
