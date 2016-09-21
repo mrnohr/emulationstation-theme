@@ -2,9 +2,23 @@
     <formatVersion>4</formatVersion>
     <include>./../cool-blue.xml</include>
 
+    <!-- For Retropie, which contains scripts/utilities, not games, don't show metadata -->
 	<view name="detailed">
-        <text name="md_lbl_genre, md_genre, md_lbl_players, md_players, md_lbl_rating, md_lbl_releasedate, md_lbl_publisher, md_publisher, md_lbl_developer, md_developer, md_lbl_lastplayed, md_lbl_playcount, md_playcount">
+        <!-- Hide labels -->
+        <text name="md_lbl_genre, md_lbl_players, md_lbl_rating, md_lbl_releasedate, md_lbl_publisher, md_lbl_developer, md_lbl_lastplayed, md_lbl_playcount">
             <pos>1 1</pos>
         </text>
+        <!-- Hide text metadata -->
+        <text name="md_genre, md_players, md_publisher, md_developer, md_playcount">
+            <pos>1 1</pos>
+        </text>
+        <!-- Hide date metadata -->
+        <datetime name="md_releasedate, md_lastplayed">
+            <pos>1 1</pos>
+        </datetime>
+        <!-- Hide rating metadata -->
+        <rating name="md_rating">
+            <pos>1 1</pos>
+        </rating>
 	</view>
 </theme>
