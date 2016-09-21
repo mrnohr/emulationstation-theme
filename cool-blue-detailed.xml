@@ -113,11 +113,11 @@ license: Apache
 			<path>./art/icons/favorite.svg</path>
 		</image>
 		<image name="md_kidgame">
-			<pos>0.75 0.46</pos>
+			<pos>0.74 0.46</pos>
 			<path>./art/icons/kid.svg</path>
 		</image>
 		<image name="md_hidden">
-			<pos>0.71 0.52</pos>
+			<pos>0.77 0.46</pos>
 			<path>./art/icons/hidden.svg</path>
 		</image>
 
