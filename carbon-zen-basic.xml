@@ -9,37 +9,33 @@ license: Apache
 
 	<view name="basic">
 
+		<!-- Background -->
 		<image name="background" extra="true">
 			<path>./art/backgrounds/dark-blue.jpg</path>
 		</image>
 
+		<!-- System Logo -->
+		<image name="logo">
+			<pos>0.18 0.08</pos>
+			<maxSize>0.2 0.09</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+
+		<!-- Game List -->
 		<textlist name="gamelist">
 			<selectedColor>80b3ff</selectedColor>
 			<primaryColor>c6d9ec</primaryColor>
 			<secondaryColor>7a6161</secondaryColor>
 			<fontPath>./art/fonts/Optima.ttc</fontPath>
-			<fontSize>0.040</fontSize>
-			<pos>0.025 0.18</pos>
-			<size>0.950 0.73</size>
-			<alignment>center</alignment>
-			<horizontalMargin>0.01</horizontalMargin>
-			<forceUppercase>1</forceUppercase>
+			<pos>0.021 0.16</pos>
+			<size>0.34 0.76</size>
+			<alignment>left</alignment>
+			<horizontalMargin>0.00</horizontalMargin>
+			<fontSize>0.025</fontSize>
 			<scrollSound>./art/sounds/click.wav</scrollSound>
 		</textlist>
 
-		<image name="logo">
-			<pos>0.266 0.074</pos>
-			<maxSize>0.460 0.126</maxSize>
-			<origin>0.5 0.5</origin>
-		</image>
-
-		<image name="logo2" extra="true">
-			<pos>0.874 0.074</pos>
-			<maxSize>0.460 0.126</maxSize>
-			<origin>0.5 0.5</origin>
-			<color>bbbbbb</color>
-		</image>
-
+		<!-- Footer -->
 		<image name="bottom" extra="true">
 			<pos>0 1</pos>
 			<origin>0 1</origin>
@@ -47,15 +43,6 @@ license: Apache
 			<path>./art/bottom.png</path>
 			<color>1aa3ff33</color>
 		</image>
-
-		<image name="top" extra="true">
-			<pos>0 0</pos>
-			<origin>0 0</origin>
-			<size>1 0.16</size>
-			<path>./art/top.png</path>
-			<color>1aa3ff33</color>
-		</image>
-
 		<helpsystem name="help">
 			<textColor>cce6ff</textColor>
 			<iconColor>99ccff</iconColor>
