@@ -21,4 +21,9 @@
             <pos>1 1</pos>
         </rating>
 	</view>
+
+    <!-- Also make the image a little smaller -->
+    <image name="md_image">
+        <maxSize>0.15 0.25</maxSize>
+    </image>
 </theme>
