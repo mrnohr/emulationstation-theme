@@ -104,7 +104,7 @@ license: Apache
 
 		<!-- Icons for kids mode -->
 		<image name="md_favorite, md_kidgame, md_hidden">
-			<maxSize>0.033 0.033</maxSize>
+			<maxSize>0.04 0.04</maxSize>
 			<origin>0.0 0.0</origin>
 			<color>c6d9ec</color>
 		</image>
